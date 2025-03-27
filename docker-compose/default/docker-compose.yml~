@@ -140,7 +140,7 @@ services:
       service: microservice-eureka-config
 
   gatewayserver:
-    image: "eazybytes/gatewayserver:s7"
+    image: "eazybytes/gatewayserver:s9"
     container_name: gatewayserver-ms
     ports:
       - "8072:8072"
